@@ -16,6 +16,8 @@ Organização de Diretórios: Caminhos corretos para mover o arquivo .jar da pas
 Sistema Operacional Linux (Testado em Arch Linux e Fedora)
 
 Project Zomboid na versão (Default Public Version) (Build 42.21 ou superior) -- O MOD SÓ FUNCIONA COM O JOGO DA STEAM
+<img width="1128" height="343" alt="image" src="https://github.com/user-attachments/assets/6d5d7db3-ef3a-4338-956f-de934dee88da" />
+
 
 LINK DOS MODS 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3810302175
