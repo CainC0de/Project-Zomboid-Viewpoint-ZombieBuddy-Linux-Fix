@@ -29,3 +29,53 @@ Project Viewpoint
 [B42] ZombieBuddy Extensions
 6244 3D models for Viewpoint [sour_kisel]
 ZombieBuddy 
+
+🚀 Instalação Passo a Passo
+1. Preparação e Download
+Certifique-se de estar inscrito nos mods ZombieBuddy e Viewpoint na Oficina da Steam. Cancele a inscrição no mod obsoleto [B42] ZombieBuddy Extensions.
+
+Baixe o arquivo ZombieBuddy-linux-test-v2.zip e salve-o em um diretório de sua preferência.
+
+2. Extração e Execução
+Abra o terminal, navegue até a pasta onde o download foi feito e execute os comandos:
+
+Para Arch Linux, Fedora e outras distribuições:
+
+Bash
+# Descompacte o arquivo (instale o pacote 'unzip' nativamente caso o terminal retorne comando não encontrado)
+unzip ZombieBuddy-linux-test-v2.zip
+
+# Entre no diretório extraído
+cd ZombieBuddy-linux-test-v2
+
+# Dê permissão de execução ao instalador
+chmod +x ZombieBuddyInstaller-linux-amd64
+
+# Execute o instalador (certifique-se de que o jogo está totalmente fechado)
+./ZombieBuddyInstaller-linux-amd64
+3. Configuração do Java (JSON)
+O instalador deve preparar o ambiente, mas é obrigatório confirmar se a injeção foi configurada no arquivo base do jogo. Abra o arquivo no terminal:
+
+Bash
+nano ~/.local/share/Steam/steamapps/common/ProjectZomboid/projectzomboid/ProjectZomboid64.json
+(Nota: Se a sua Steam estiver em outro diretório, o caminho pode iniciar com ~/.steam/steam/steamapps/...)
+
+Dentro da seção "vmArgs", as duas primeiras linhas devem ser exatamente estas:
+
+JSON
+		"-javaagent:ZombieBuddy.jar",
+		"-Djava.awt.headless=false",
+Se não estiverem, adicione-as. Salve o arquivo (Ctrl+O, Enter) e feche o editor (Ctrl+X).
+
+4. Aprovação de Segurança via Terminal
+O ambiente Linux bloqueia a janela gráfica de permissão do Java. Você precisa iniciar o jogo pelo terminal para aprovar a injeção da câmera:
+
+Bash
+~/.local/share/Steam/steamapps/common/ProjectZomboid/projectzomboid.sh
+No menu do jogo, vá em Mods e ative o ZombieBuddy e o Viewpoint.
+
+Inicie uma partida ou carregue o seu save.
+
+Mantenha o terminal visível: Durante a tela de carregamento, o console pausará e pedirá uma permissão de segurança para o mod.
+
+Digite Y no terminal e pressione Enter.
