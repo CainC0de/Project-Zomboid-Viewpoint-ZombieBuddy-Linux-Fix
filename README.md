@@ -35,9 +35,8 @@ Este repositório fornece a solução exata para injetar o mod manualmente e apr
 * 🧟‍♂️ [ZombieBuddy](https://steamcommunity.com/workshop/filedetails/?id=3619862853)
 * 🎥 [Project Viewpoint](https://steamcommunity.com/sharedfiles/filedetails/?id=3810302175)
 * 📦 [6244 3D models for Viewpoint [sour_kisel]](https://steamcommunity.com/sharedfiles/filedetails/?id=3809306528)
+* ❌ [[B42] ZombieBuddy Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=3807686870) 
 
-**Mods Obsoletos (NÃO UTILIZAR):**
-* ❌ [[B42] ZombieBuddy Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=3807686870) *(Causa conflitos e erros de manifest)*
 
 ---
 
